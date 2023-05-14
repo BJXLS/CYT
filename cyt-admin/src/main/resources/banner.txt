@@ -1,0 +1,2 @@
+Application Version: ${cyt.version}
+Spring Boot Version: ${spring-boot.version}

@@ -46,6 +46,3 @@ nbdist/
 !*/build/*.html
 !*/build/*.xml
 /ruoyi-ui/
-git remote add origin https://github.com/BJXLS/CYT.git
-git branch -M master
-git push -u origin master

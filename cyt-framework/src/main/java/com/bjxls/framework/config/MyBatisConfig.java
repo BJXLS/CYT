@@ -27,7 +27,7 @@ import com.bjxls.common.utils.StringUtils;
 /**
  * Mybatis支持*匹配扫描包
  * 
- * @author ruoyi
+ * @author bjxls
  */
 @Configuration
 public class MyBatisConfig

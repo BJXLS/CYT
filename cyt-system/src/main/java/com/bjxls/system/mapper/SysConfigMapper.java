@@ -6,7 +6,7 @@ import com.bjxls.system.domain.SysConfig;
 /**
  * 参数配置 数据层
  * 
- * @author ruoyi
+ * @author bjxls
  */
 public interface SysConfigMapper
 {

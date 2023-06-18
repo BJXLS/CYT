@@ -46,3 +46,4 @@ nbdist/
 !*/build/*.html
 !*/build/*.xml
 /ruoyi-ui/
+/cyt-admin/src/test/

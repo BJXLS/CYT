@@ -22,7 +22,7 @@ import com.bjxls.system.service.ISysOperLogService;
 /**
  * 操作日志记录
  * 
- * @author ruoyi
+ * @author bjxls
  */
 @RestController
 @RequestMapping("/monitor/operlog")

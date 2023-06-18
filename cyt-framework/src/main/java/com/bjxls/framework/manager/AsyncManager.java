@@ -9,7 +9,7 @@ import com.bjxls.common.utils.spring.SpringUtils;
 /**
  * 异步任务管理器
  * 
- * @author ruoyi
+ * @author bjxls
  */
 public class AsyncManager
 {
@@ -20,6 +20,8 @@ public class AsyncManager
 
     /**
      * 异步操作任务调度线程池
+     * 通过引入线程池，再实现异步实现，这里为什么要这么做，直接在业务里引入线程池不就行了吗
+     * 这相当于是一个公共线程池
      */
     private ScheduledExecutorService executor = SpringUtils.getBean("scheduledExecutorService");
 

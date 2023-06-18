@@ -15,7 +15,7 @@ import com.bjxls.common.constant.Constants;
 /**
  * 构建可重复读取inputStream的request
  * 
- * @author ruoyi
+ * @author bjxls
  */
 public class RepeatedlyRequestWrapper extends HttpServletRequestWrapper
 {

@@ -18,7 +18,7 @@ import com.bjxls.framework.interceptor.RepeatSubmitInterceptor;
 /**
  * 通用配置
  * 
- * @author ruoyi
+ * @author bjxls
  */
 @Configuration
 public class ResourcesConfig implements WebMvcConfigurer

@@ -21,7 +21,7 @@ import com.bjxls.common.annotation.Anonymous;
 /**
  * 设置Anonymous注解允许匿名访问的url
  * 
- * @author ruoyi
+ * @author bjxls
  */
 @Configuration
 public class PermitAllUrlProperties implements InitializingBean, ApplicationContextAware

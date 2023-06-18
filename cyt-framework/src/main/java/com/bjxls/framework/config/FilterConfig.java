@@ -15,7 +15,7 @@ import com.bjxls.common.utils.StringUtils;
 /**
  * Filter配置
  *
- * @author ruoyi
+ * @author bjxls
  */
 @Configuration
 public class FilterConfig

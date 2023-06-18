@@ -8,8 +8,8 @@
     <artifactId>CYT</artifactId>
     <version>0.0.1</version>
 
-    <name>CYT</name>
-    <description>CYT</description>
+    <name>cyt</name>
+    <description>cyt</description>
     
     <properties>
         <cyt.version>0.0.1</cyt.version>
@@ -153,6 +153,17 @@
                 <groupId>com.bjxls</groupId>
                 <artifactId>cyt-common</artifactId>
                 <version>${cyt.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-logging</artifactId>
+                <exclusions>
+                    <exclusion>
+                        <groupId>*</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
         </dependencies>

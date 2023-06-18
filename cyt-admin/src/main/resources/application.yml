@@ -33,11 +33,9 @@ server:
       # Tomcat启动初始化的线程数，默认值10
       min-spare: 100
 
-# 日志配置
+# log4j2日志配置
 logging:
-  level:
-    com.bjxls: debug
-    org.springframework: warn
+  config: classpath:log4j2.xml
 
 # 用户配置
 user:
@@ -129,3 +127,4 @@ xss:
   excludes: /system/notice
   # 匹配链接
   urlPatterns: /system/*,/monitor/*,/tool/*
+
